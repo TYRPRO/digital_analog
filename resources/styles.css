@@ -1,0 +1,68 @@
+#digitalTime {
+  font-size: 50;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 75%+25;
+}
+#digitalTimeDim {
+  font-size: 50;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 75%+25;
+}
+#day {
+  font-size: 28;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 75%+55;
+}
+#date {
+  font-size: 50;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 82%+2;
+  y: 50%+17;
+}
+#dateDim {
+  font-size: 50;
+  text-length: 32;
+  text-anchor: middle;
+  x: 82%+2;
+  y: 50%+17;
+}
+#batteryText {
+  font-size: 50;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  fill: white
+}
+#heartRate {
+  font-size: 50;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  fill: white
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
+.dim {
+  fill: #A8A8A8;
+  transition: all;
+}
+.lit {
+  fill: white;
+  transition: all;
+}

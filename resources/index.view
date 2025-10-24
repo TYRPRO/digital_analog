@@ -1,0 +1,23 @@
+<svg class="background">
+  <image href="background.png" id="background" />
+  <text id="digitalTime" class="lit"/>
+  <text id="digitalTimeDim" class="hide"/>
+  <text id="day" class="lit"/>
+  <text id="date" class="lit"/>
+  <text id="dateDim" class="hide"/>
+  <arc id="batteryBar" x="25" y="50%-50" width="100" height="100" fill="#2DC887"
+    arc-width="10" start-angle="0" sweep-angle="360" />
+  <text id="batteryText" x="22%+1" y="50%+17" />
+  <text id="heartRate" x="50%" y="24%" class="lit">--</text>
+  <g id="minute" pointer-events="visible" transform="translate(50%,50%)">
+    <image id="minutesImage" href="minute.png" width="6" height="132" x="$-3" y="-132"/>
+  </g>
+  <g id="hour" pointer-events="visible" transform="translate(50%,50%)">
+    <image id="hoursImage" href="hour.png" width="6" height="78" x="$-3" y="-78"/>
+  </g>
+  <g id="second" pointer-events="visible" transform="translate(50%,50%)">
+    <image id="secondsImage" href="second.png" width="4" height="168" x="$-2" y="-159"/>
+  </g>
+  <circle cx="50%" cy="50%" r="10" class="lit" id="middleCircle"/>
+  <circle cx="50%" cy="50%" r="7" fill="black" />
+</svg>
